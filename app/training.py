@@ -10,7 +10,7 @@ from keras.src.layers import Conv2D, MaxPooling2D, Flatten, Dropout, Dense, Batc
 from keras.src.optimizers import Adam
 from keras.src.preprocessing.image import ImageDataGenerator
 
-from app.utils.download_utils import download_and_unzip
+from utils.download_utils import download_and_unzip
 
 
 logging.basicConfig(stream=sys.stdout,

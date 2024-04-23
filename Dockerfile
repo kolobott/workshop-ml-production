@@ -22,5 +22,6 @@ COPY app /app
 EXPOSE 8000
 
 # Specify the command to run on container start
-#CMD ["uvicorn", "app.fastapi_main:app", "--host", "0.0.0.0", "--port", "8000"]
-CMD ["python", "app/gradio_main.py"]
+CMD ["uvicorn", "app.fastapi_main:app", "--host", "0.0.0.0", "--port", "8000"]
+#CMD ["python", "app/gradio_main.py"]
+#CMD ["python", "app/training.py"]
